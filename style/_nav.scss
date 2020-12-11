@@ -1,0 +1,36 @@
+/*General Style Import*/
+@import './_generalstyles';
+
+.nav {
+    background-color: $color1;
+    display: flex;
+        
+   &-check {
+       display: none;
+    }
+
+   &-lines, &-lines-x{
+       display: none;
+   }
+
+   &-menu {
+       background-color: $color5;
+       list-style: none;
+       height: 0;
+       transition: all 1s ease;
+       overflow: hidden;
+   }
+
+   &-items {
+        &-link {
+        text-decoration: none;
+        color: $color1;
+        font-family: $text;
+        text-transform: capitalize;
+        }
+    }
+
+   &-check:checked ~ &-menu {
+    height: 100px;
+  }
+}

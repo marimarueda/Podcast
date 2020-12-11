@@ -1,0 +1,67 @@
+/*HEADER*/
+/*General Style Import*/
+/*GENERAL STYLES*/
+/*COLORS
+1: background, 2: typography, 3: buttons, 4: gradient, 5: nav mobile*/
+/*TYPOGRAPHY*/
+/*MIXINS*/
+.nav {
+  background-color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav-check {
+  display: none;
+}
+
+.nav-lines, .nav-lines-x {
+  display: none;
+}
+
+.nav-menu {
+  background-color: #0000EC;
+  list-style: none;
+  height: 0;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  overflow: hidden;
+}
+
+.nav-items-link {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-family: "IBM Plex Mono", monospace;
+  text-transform: capitalize;
+}
+
+.nav-check:checked ~ .nav-menu {
+  height: 100px;
+}
+
+/*MAIN*/
+/*General Style Import*/
+/*GENERAL STYLES*/
+/*COLORS
+1: background, 2: typography, 3: buttons, 4: gradient, 5: nav mobile*/
+/*TYPOGRAPHY*/
+/*MIXINS*/
+h1 {
+  color: #060A24;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 36px;
+}
+
+.us-img, .interview-img {
+  width: 100%;
+}
+
+/*FOOTER*/
+/*General Style Import*/
+/*GENERAL STYLES*/
+/*COLORS
+1: background, 2: typography, 3: buttons, 4: gradient, 5: nav mobile*/
+/*TYPOGRAPHY*/
+/*MIXINS*/
+/*# sourceMappingURL=style.css.map */

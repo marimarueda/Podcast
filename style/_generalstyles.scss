@@ -1,0 +1,30 @@
+/*GENERAL STYLES*/
+
+/*COLORS
+1: background, 2: typography, 3: buttons, 4: gradient, 5: nav mobile*/
+$color1: #FFFFFF;
+$color2: #060A24;
+$color3: #00F3BB;
+$color3A: #00F0B8;
+$color3B: #0000FE;
+$color4A: #0000FF;
+$color4B: #0000A3;
+$color5: #0000EC;
+
+/*TYPOGRAPHY*/
+$title: 'IBM Plex Sans', sans-serif;
+$text: 'IBM Plex Mono', monospace;
+
+
+/*MIXINS*/
+@mixin styleh1 {
+    color: $color2;
+    font-family: $title;
+    font-size: 36px;
+}
+
+
+
+
+
+

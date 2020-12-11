@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Podcast Channel</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <script src="https://kit.fontawesome.com/e91906ebe6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="nav">
+        <img class="nav-logo" src="./assets/logo.svg" alt="logo">
+        <input class="nav-check" type="checkbox" id="nav-check"/>
+        <label class="nav-lines" for="nav-check">
+            <span class="nav-lines-line"></span>
+        </label> 
+        <ul class="nav-menu">
+            <li><a href="#episodes">episodios</a></li>
+            <li><a href="#us">Nosotros</a></li>
+            <li><a href="#interview">Entrevista</a></li>
+            <li><a href="#topics">Tópicos</a></li>
+        </ul>     
+    </nav>
+
+    <main>
+        <h1>Hello <span>world</span> pale blue dot</h1>
+        <p>Un podcast que explora el mundo de la programación. Nuevos episodios, todos los jueves cada 15 días.</p>
+        <button class="button">Conoce más</button>
+                
+        <section id="episodes">
+            <!--svg-->
+            <h1>Episodios</h1>
+            <iframe src="https://open.spotify.com/embed-podcast/episode/7AZZy2nJ4R9ZndHW0h2yxt" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe src="https://open.spotify.com/embed-podcast/episode/4TVf9ldzZpa4LKTQecAqCy" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe src="https://open.spotify.com/embed-podcast/episode/3cWta1iiQSfvrdHaCbLkSD" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe src="https://open.spotify.com/embed-podcast/episode/5mddqHiI96V0ZMdMidn3WW" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        </section>
+
+        <section id="us">
+            <!--svg-->
+            <img class="us-img" src="./assets/phone.png" alt="phone">
+            <h1>De dónde venimos</h1>
+            <p>Our posturings, our imagined self-importance, the delusion that we have some privileged position in the Universe, are challenged by this point of pale light.</p>
+        </section>
+
+        <section id="interview">
+            <h1>Invitadas/os estelares</h1>
+            <img class="interview-img" src="./assets/grace-hopper.png" alt="grace-hopper">
+            <img class="interview-img" src="./assets/Katie-Bouman.png" alt="katie-bouman">
+            <img class="interview-img" src="./assets/Margaret_Hamilton.png" alt="margaret-hamilton">
+            <img class="interview-img" src="./assets/An E.R.A.Univac 1103 computer in the 1950s.png" alt="univac">
+            <img class="interview-img" src="./assets/Computer operators with an Eniac — the world’s first programmable general-purpose computer.png" alt="eniac">
+            <img class="interview-img" src="./assets/susan-kare.png" alt="susan-kare">
+        </section>
+
+        <section id="topics">
+            <h1>Algunos de nuestros temas</h1>
+            <div class="topics-line">
+                <img src="./assets/icon1.svg">
+                <p>Trabajo remoto</p>
+            </div>
+            <div class="topics-line">
+                <img src="./assets/icon2.svg">
+                <p>Repensando la programación</p>
+            </div>
+            <div class="topics-line">
+                <img src="./assets/icon3.svg">
+                <p>Bases del código</p>
+            </div>
+            <div class="topics-line">
+                <img src="./assets/icon4.svg">
+                <p>Seguridad informática</p>
+            </div>
+        </section>
+
+        <section>
+            <!--svg-->
+            <h1>¿Querés las últimas novedades?</h1>
+            <button class="button">escuchá los episodios</button>
+        </section>
+    </main>
+    <footer>
+        <p>© 2019— Hello blue pale dot</p>
+        <!--iconos-->
+    </footer>
+</body>
+</html>

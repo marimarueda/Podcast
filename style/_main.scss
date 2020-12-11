@@ -1,0 +1,10 @@
+/*General Style Import*/
+@import './_generalstyles';
+
+h1 {
+    @include styleh1;
+}
+
+.us-img, .interview-img {
+    width: 100%;
+}
